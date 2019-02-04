@@ -9,6 +9,6 @@ Usage:
 
 | No.      | Bash Command                    |
 |----------|---------------------------------|
-| 1        | wget -qO- https://raw.githubusercontent.com/ikym/CY-Shell/master/bench.sh | bash       |
-| 2        | curl -Lso- https://raw.githubusercontent.com/ikym/CY-Shell/master/bench.sh | bash      |
+| 1        | wget -qO- https://raw.githubusercontent.com/ikym/script/master/bench.sh | bash       |
+| 2        | curl -Lso- https://raw.githubusercontent.com/ikym/script/master/bench.sh | bash      |
 ```
