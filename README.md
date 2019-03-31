@@ -3,8 +3,7 @@
 ## Superbench.sh
 - Description: Auto test download & I/O speed & network to China script
 
-```bash
-Usage:
+```
 | wget --no-check-certificate https://github.com/ikym/script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh       |
 ```
 
