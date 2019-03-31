@@ -9,7 +9,6 @@ Usage:
 | No.      | Bash Command                    |
 |----------|---------------------------------|
 | 1        | wget --no-check-certificate https://github.com/ikym/script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh       |
-| 2        | wget --no-check-certificate https://i.lia.im/script/bench.sh && chmod +x bench.sh && ./bench.sh       |
 ```
 
 ## shadowsocksR.sh
@@ -21,7 +20,6 @@ Usage:
 | No.      | Bash Command                    |
 |----------|---------------------------------|
 | 1        | wget -N --no-check-certificate https://github.com/ikym/script/raw/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && bash shadowsocksR.sh       |
-| 2        | wget -N --no-check-certificate https://i.lia.im/script/shadowsocksR.sh && chmod +x shadowsocksR.sh && bash shadowsocksR.sh       |
 ```
 
 ## bbr.sh
@@ -33,5 +31,4 @@ Usage:
 | No.      | Bash Command                    |
 |----------|---------------------------------|
 | 1        | wget --no-check-certificate https://github.com/ikym/script/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh       |
-| 2        | wget --no-check-certificate https://i.lia.im/script/bbr.sh && chmod +x bbr.sh && ./bbr.sh       |
 ```
