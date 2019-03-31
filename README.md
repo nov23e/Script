@@ -5,9 +5,6 @@
 
 ```bash
 Usage:
-
-| Bash Command                    |
-|-------------------------------------------|
 | wget --no-check-certificate https://github.com/ikym/script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh       |
 ```
 
