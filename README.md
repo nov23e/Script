@@ -2,7 +2,6 @@
 
 ## Superbench.sh
 - Description: Auto test download & I/O speed & network to China script
-- Cyril <i@lia.im>
 
 ```bash
 Usage:
@@ -15,7 +14,6 @@ Usage:
 
 ## shadowsocksR.sh
 - Description: Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
-- Cyril <i@lia.im>
 
 ```bash
 Usage:
@@ -27,7 +25,6 @@ Usage:
 
 ## bbr.sh
 - Description: Auto install latest kernel for TCP BBR
-- Cyril <i@lia.im>
 
 ```bash
 Usage:
