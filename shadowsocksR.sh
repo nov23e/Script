@@ -6,7 +6,7 @@ export PATH
 #   Description: One click Install ShadowsocksR Server            #
 #   Author: Cyril <i@lia.im>                                      #
 #   Thanks: @breakwa11 <https://twitter.com/breakwa11>            #
-#   Intro:  https://www.mlio.net/                                 #
+#   Intro:  https://www.mlio.net/shadowsocksR.html                #
 #=================================================================#
 
 clear
@@ -442,7 +442,7 @@ install(){
         echo -e "Your obfs             : \033[41;37m ${shadowsockobfs} \033[0m"
         echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
         echo
-        echo "Welcome to visit:https://www.mlio.net/"
+        echo "Welcome to visit:https://www.mlio.net/shadowsocksR.html"
         echo "Enjoy it!"
         echo
     else
