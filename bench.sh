@@ -6,7 +6,7 @@
 #
 # Thanks: Bench.sh <i@teddysun.com>
 #
-# URL: http://www.mlio.net/VPS-Test.html
+# URL: https://github.com/ikym/script/bench.sh
 #
 
 # Colors
