@@ -6,9 +6,9 @@
 ```bash
 Usage:
 
-| No.      | Bash Command                    |
-|----------|---------------------------------|
-| 1        | wget --no-check-certificate https://github.com/ikym/script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh       |
+| Bash Command                    |
+|-------------------------------------------|
+| wget --no-check-certificate https://github.com/ikym/script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh       |
 ```
 
 ## shadowsocksR.sh
