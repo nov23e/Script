@@ -8,8 +8,8 @@ Usage:
 
 | No.      | Bash Command                    |
 |----------|---------------------------------|
-| 1        | wget -qO- https://raw.githubusercontent.com/ikym/script/master/bench.sh | bash       |
-| 2        | curl -Lso- https://raw.githubusercontent.com/ikym/script/master/bench.sh | bash      |
+| 1        | wget -qO- https://github.com/ikym/script/raw/master/bench.sh | bash       |
+| 2        | curl -Lso- https://github.com/ikym/script/raw/master/bench.sh | bash      |
 ```
 
 ## shadowsocksR.sh
@@ -21,5 +21,5 @@ Usage:
 
 | No.      | Bash Command                    |
 |----------|---------------------------------|
-| 1        | wget -N --no-check-certificate https://raw.githubusercontent.com/ikym/script/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && bash shadowsocksR.sh       |
+| 1        | wget -N --no-check-certificate https://github.com/ikym/script/raw/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && bash shadowsocksR.sh       |
 ```
