@@ -29,6 +29,7 @@ cur_dir=`pwd`
 # Stream Ciphers
 ciphers=(
 none
+rc4-md5
 aes-256-cfb
 aes-192-cfb
 aes-128-cfb
@@ -43,7 +44,6 @@ chacha20
 salsa20
 xchacha20
 xsalsa20
-rc4-md5
 )
 # Reference URL:
 # https://github.com/shadowsocksr-rm/shadowsocks-rss/blob/master/ssr.md
