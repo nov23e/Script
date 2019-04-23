@@ -68,7 +68,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2019 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/Windows/Disk_Windows_DD/Disk_Windows_Server_2019_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
+	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://file.lia.im/DD/Windows/Windows_Server_2019_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
 fi
 
 if [ $1 = '-Windows_Server_2016' ]
@@ -76,7 +76,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2016 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/Windows/Disk_Windows_DD/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
+	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://file.lia.im/DD/Windows/Windows_Server_2016_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
 fi
 
 if [ $1 = '-Windows_Server_2008R2' ]
