@@ -31,23 +31,6 @@ echo "--------------------------------------------------------------------------
 echo -e "\n"
 sleep 5s
 
-
-if [ $1 = '-CentOS_7' ]
-then
-	echo -e "\033[33m You have chosen to install the latest CentOS_7 \033[0m"
-	echo -e "\n"
-	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/CentOS/CentOS_7.X_NetInstallation.vhd.gz' --mirror 'http://deb.debian.org/debian'
-fi
-
-if [ $1 = '-CentOS_6' ]
-then
-	echo -e "\033[33m You have chosen to install the latest CentOS_6 \033[0m"
-	echo -e "\n"
-	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -c 6.9 -v 64 -a --mirror 'http://mirror.centos.org/centos'
-fi
-
 if [ $1 = '-Debian_10' ]
 then
 	echo -e "\033[33m You have chosen to install the latest Debian_10 \033[0m"
@@ -80,30 +63,6 @@ then
 	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -d 7 -v 64 -a --mirror 'https://snapshot.debian.org/archive/debian/20190321T212815Z/'
 fi
 
-if [ $1 = '-Ubuntu_18.04' ]
-then
-	echo -e "\033[33m You have chosen to install the latest Ubuntu_18.04 \033[0m"
-	echo -e "\n"
-	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -u 18.04 -v 64 -a --mirror 'http://archive.ubuntu.com/ubuntu'
-fi
-
-if [ $1 = '-Ubuntu_16.04' ]
-then
-	echo -e "\033[33m You have chosen to install the latest Ubuntu_16.04 \033[0m"
-	echo -e "\n"
-	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -u 16.04 -v 64 -a --mirror 'http://archive.ubuntu.com/ubuntu'
-fi
-
-if [ $1 = '-Ubuntu_14.04' ]
-then
-	echo -e "\033[33m You have chosen to install the latest Ubuntu_14.04 \033[0m"
-	echo -e "\n"
-	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -u 14.04 -v 64 -a --mirror 'http://archive.ubuntu.com/ubuntu'
-fi
-
 if [ $1 = '-Windows_Server_2019' ]
 then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2019 \033[0m"
@@ -120,20 +79,12 @@ then
 	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/Windows/Disk_Windows_DD/Disk_Windows_Server_2016_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
 fi
 
-if [ $1 = '-Windows_Server_2012R2' ]
-then
-	echo -e "\033[33m You have chosen to install the latest Windows_Server_2012R2 \033[0m"
-	echo -e "\n"
-	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/Windows/Disk_Windows_DD/Disk_Windows_Server_2012R2_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
-fi
-
 if [ $1 = '-Windows_Server_2008R2' ]
 then
 	echo -e "\033[33m You have chosen to install the latest Windows_Server_2008R2 \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/Windows/Disk_Windows_DD/Disk_Windows_Server_2008R2_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
+	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://file.lia.im/DD/Windows/Windows_Server_2008R2_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
 fi
 
 if [ $1 = '-Windows_7_Vienna' ]
@@ -141,23 +92,7 @@ then
 	echo -e "\033[33m You have chosen to install the latest Windows_7_Vienna \033[0m"
 	echo -e "\n"
 	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/Windows/Disk_Windows_DD/Disk_Windows_7_Vienna_Ultimate_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
-fi
-
-if [ $1 = '-Windows_Server_2003' ]
-then
-	echo -e "\033[33m You have chosen to install the latest Windows_Server_2003 \033[0m"
-	echo -e "\n"
-	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/Windows/Disk_Windows_DD/Disk_Windows_Server_2003_DataCenter_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
-fi
-
-if [ $1 = '-CXT_Bare-metal_System_Deployment_Platform' ]
-then
-	echo -e "\033[33m You have chosen to install the latest CXT_Bare-metal_System_Deployment_Platform \033[0m"
-	echo -e "\n"
-	sleep 2s
-	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://opendisk.cxthhhhh.com/OperatingSystem/CXT-System/CXT_Bare-metal_System_Deployment_Platform.vhd.gz' --mirror 'http://deb.debian.org/debian'
+	wget --no-check-certificate -qO koiok.sh 'https://github.com/ikym/script/raw/master/koiok.sh' && bash koiok.sh -dd 'https://file.lia.im/DD/Windows/Windows_7_Vienna_Ultimate_CN.vhd.gz' --mirror 'http://deb.debian.org/debian'
 fi
 
 if [ $1 = '-DD' ]
