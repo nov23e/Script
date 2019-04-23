@@ -20,3 +20,7 @@ wget -N --no-check-certificate https://github.com/ikym/script/raw/master/shadows
 ```
 wget --no-check-certificate https://github.com/ikym/script/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
+
+## Network-Reinstall-System-Modify.sh
+
+Please go to `https://www.mlio.net/dd.html` to view the details.
