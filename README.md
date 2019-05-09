@@ -26,10 +26,3 @@ wget --no-check-certificate https://github.com/ikym/script/raw/master/bbr.sh && 
 ```
 Please go to `https://www.mlio.net/dd.html` to view the details.
 ```
-
-## tz_install.sh
- - Yahei PHP probe one-click installation script for Debian/Ubuntu
- 
- ```
-wget -N --no-check-certificate https://github.com/ikym/script/raw/master/tz_install.sh && chmod +x tz_install.sh && bash tz_install.sh
-```
