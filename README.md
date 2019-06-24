@@ -4,7 +4,7 @@
 - Description: Auto test download & I/O speed & network to China script
 
 ```
-wget --no-check-certificate https://github.com/ikym/script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh
+wget --no-check-certificate https://git.io/fjrfs && chmod +x bench.sh && ./bench.sh
 ```
 
 ## shadowsocksR.sh
