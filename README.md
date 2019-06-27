@@ -20,3 +20,10 @@ wget -N --no-check-certificate https://github.com/ikym/script/raw/master/shadows
 ```
 wget --no-check-certificate https://github.com/ikym/script/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
+
+## InstallNET.sh
+
+ - Applicable to CentOS, Ubuntu, Debian systems booted by GRUB.
+ - Use the official distribution to remove the pre-installed software from the template.
+ - At the same time, it can also solve the problem that the kernel version is incompatible with the software.
+ - As long as you have root privileges, you also have a pure system.
