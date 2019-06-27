@@ -1,4 +1,4 @@
-# Some Linux scripts
+# Some Linux Scripts
 
 ## Superbench.sh
 - Description: Auto test download & I/O speed & network to China script
