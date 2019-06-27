@@ -1,8 +1,17 @@
 #!/bin/bash
 
-## It can reinstall Debian, Ubuntu, CentOS system with network.
-## Suitable for using by GRUB.
+## This is the magically modified version of the one-click reload script.
+## It can reinstall CentOS, Debian, Ubuntu and other Linux systems (continuously added) over the network in one click.
+## It can reinstall Windwos 2003, 7, 2008R2, 2012R2, 2016, 2019 and other Windows systems (continuously added) via the network in one click.
+## Technical support is provided by the CY. (based on the original version of Vicer)
+
+## Magic Modify version author:
 ## Default root password: Cyril
+## Blog: https://www.mlio.net
+## Written By CY
+
+## Original version author:
+## Suitable for using by GRUB.
 ## Blog: https://moeclub.org
 ## Written By Vicer
 
