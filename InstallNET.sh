@@ -2,7 +2,7 @@
 
 ## It can reinstall Debian, Ubuntu, CentOS system with network.
 ## Suitable for using by GRUB.
-## Default root password: Vicer
+## Default root password: Cyril
 ## Blog: https://moeclub.org
 ## Written By Vicer
 
