@@ -355,7 +355,7 @@ fi
 
 [ -n "$ipAddr" ] && [ -n "$ipMask" ] && [ -n "$ipGate" ] && setNet='1';
 [[ -n "$tmpWORD" ]] && myPASSWORD="$(openssl passwd -1 "$tmpWORD")";
-[[ -z "$myPASSWORD" ]] && myPASSWORD='$1$KKKIVuX4$zKroNxXkCuihHMg7YK1Wb0';
+[[ -z "$myPASSWORD" ]] && myPASSWORD='$1$.HxRAHoh$gLcfqPvBmPtYnBBQnO8IQ0';
 [[ -n "$tmpFW" ]] && INCFW="$tmpFW";
 [[ -z "$INCFW" ]] && INCFW='0';
 
