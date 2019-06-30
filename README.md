@@ -13,7 +13,7 @@ wget --no-check-certificate https://github.com/ikym/Script/raw/master/bench.sh &
 wget -qO- https://file.lia.im/Script/bench.sh | bash
 ```
 
-## shadowsocksR.sh
+## Shadowsocks
 - Description: Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
 
 - Please enter the [blog](https://www.mlio.net)
