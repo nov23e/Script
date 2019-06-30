@@ -16,15 +16,7 @@ wget -qO- https://file.lia.im/Script/bench.sh | bash
 ## shadowsocksR.sh
 - Description: Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
 
-```
-wget --no-check-certificate https://github.com/ikym/Script/raw/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && ./shadowsocksR.sh
-```
-
-- Alternate node:
-
-```
-wget --no-check-certificate https://file.lia.im/Script/shadowsocksR.sh && chmod +x shadowsocksR.sh && ./shadowsocksR.sh
-```
+- Please enter the [blog](https://www.mlio.net)
 
 ## bbr.sh
 - Description: Auto install latest kernel for TCP BBR
