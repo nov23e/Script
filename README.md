@@ -7,7 +7,7 @@
 wget --no-check-certificate https://github.com/ikym/Script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh
 ```
 
-Alternate node:
+- Alternate node:
 
 ```
 wget -qO- https://file.lia.im/Script/bench.sh | bash
@@ -20,7 +20,7 @@ wget -qO- https://file.lia.im/Script/bench.sh | bash
 wget --no-check-certificate https://github.com/ikym/Script/raw/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && ./shadowsocksR.sh
 ```
 
-Alternate node:
+- Alternate node:
 
 ```
 wget --no-check-certificate https://file.lia.im/Script/shadowsocksR.sh && chmod +x shadowsocksR.sh && ./shadowsocksR.sh
@@ -33,7 +33,7 @@ wget --no-check-certificate https://file.lia.im/Script/shadowsocksR.sh && chmod 
 wget --no-check-certificate https://github.com/ikym/Script/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
-Alternate node:
+- Alternate node:
 
 ```
 wget --no-check-certificate https://file.lia.im/Script/bbr.sh && chmod +x bbr.sh && ./bbr.sh
@@ -46,4 +46,4 @@ wget --no-check-certificate https://file.lia.im/Script/bbr.sh && chmod +x bbr.sh
  - At the same time, it can also solve the problem that the kernel version is incompatible with the software.
  - As long as you have root privileges, you also have a pure system.
  
- Please enter the [blog](https://www.mlio.net)
+ - Please enter the [blog](https://www.mlio.net)
