@@ -7,11 +7,23 @@
 wget --no-check-certificate https://github.com/ikym/Script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh
 ```
 
+Alternate node:
+
+```
+wget -qO- https://file.lia.im/Script/bench.sh | bash
+```
+
 ## shadowsocksR.sh
 - Description: Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
 
 ```
-wget -N --no-check-certificate https://github.com/ikym/Script/raw/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && bash shadowsocksR.sh
+wget --no-check-certificate https://github.com/ikym/Script/raw/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && ./shadowsocksR.sh
+```
+
+Alternate node:
+
+```
+wget --no-check-certificate https://file.lia.im/Script/shadowsocksR.sh && chmod +x shadowsocksR.sh && ./shadowsocksR.sh
 ```
 
 ## bbr.sh
@@ -19,6 +31,12 @@ wget -N --no-check-certificate https://github.com/ikym/Script/raw/master/shadows
 
 ```
 wget --no-check-certificate https://github.com/ikym/Script/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+```
+
+Alternate node:
+
+```
+wget --no-check-certificate https://file.lia.im/Script/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
 ## InstallNET.sh
