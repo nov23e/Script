@@ -45,3 +45,5 @@ wget --no-check-certificate https://file.lia.im/Script/bbr.sh && chmod +x bbr.sh
  - Use the official distribution to remove the pre-installed software from the template.
  - At the same time, it can also solve the problem that the kernel version is incompatible with the software.
  - As long as you have root privileges, you also have a pure system.
+ 
+ Please enter the [blog](https://www.mlio.net)
