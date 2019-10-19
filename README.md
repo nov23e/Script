@@ -10,7 +10,7 @@ wget --no-check-certificate https://github.com/ikym/Script/raw/master/bench.sh &
 ## Shadowsocks
 - Description: Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
 
-- Please enter the [blog](https://lioec.com)
+- Please enter the [Github](https://github.com/ikym/Shadowsocks)
 
 ## bbr.sh
 - Description: Auto install latest kernel for TCP BBR
