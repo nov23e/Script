@@ -2,7 +2,7 @@
 #
 # Description: Auto test download & I/O speed & network to China script
 #
-# Copyright (C) 2016 - 2019 Cyril Wong <i@lia.im>
+# Copyright (C) Cyril Wong <kli@live.com>
 #
 # Thanks: Bench.sh <i@teddysun.com>
 #
