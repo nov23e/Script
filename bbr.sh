@@ -4,7 +4,7 @@
 #   System Required:  CentOS 6+, Debian7+, Ubuntu12+              #
 #   Description: Auto install latest kernel for TCP BBR           #
 #   Author: Cyril Wong<kli@live.com>                              #
-#   Intro:  https://kwvx.com/bbr.html                             #
+#   Intro:  https://lia.im/bbr.html                             #
 #=================================================================#
 #
 
