@@ -147,9 +147,10 @@ if ($domain) {
 }
 ?>
 <div align="center">
- <p>&#9400; 2020 <a href="https://hxzo.com" title="Hxzo, lnc.">Hxzo, lnc.</a>
-            </p>
-        </div>
-    </div>
+  <p>&#9400; 2020
+    <a href="https://hxzo.com" title="Hxzo, lnc.">Hxzo, lnc.</a></p>
+</div>
+</div>
 </body>
+
 </html>
