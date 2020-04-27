@@ -31,8 +31,8 @@ wget --no-check-certificate https://github.com/ikym/Script/raw/master/bbr.sh && 
 - 简洁Light版
 - 去除了IP、探针显示以及所有的主动测试功能，挂在服务器上不用太担心被刷……
 
-## tz.php
-- HP 探针(极速版) v1.0
+## prober.php
+- PHP 探针(极速版)
 - 这根针修改自雅黑探针，修复了一些bug，优化了性能，提高了加载速度，并且修改了CSS，适配移动端。加入了显示客户端 ip 地理位置和 ISP 信息（基于 ipip.net, 需要安装 php-curl)
 
 ```
