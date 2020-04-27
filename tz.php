@@ -1,6 +1,5 @@
 <?php
-
-// error_reporting(0);
+/* ----------------本探针基于YaHei.net探针------------------- */
 
 function __($message) {
 	$messages = array(
@@ -60,7 +59,7 @@ function __($message) {
 		'Max Execution Time' => '最大执行时间',
 		'Default Socket Timeout' => '默认 Socket 超时',
 		'PHP Extension' => 'PHP 扩展',
-		'Prober' => '探针',
+		'Prober' => 'PHP探针',
 		'Turbo Version' => '极速版',
 		'Back to top' => '返回顶部',
 	);
@@ -459,7 +458,7 @@ $netarp = get_netarp();
 
 ?><!DOCTYPE html>
 <meta charset="utf-8">
-<title><?php echo $_SERVER['SERVER_NAME']; ?></title>
+<title><?php __('Prober'); ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <style>
@@ -686,7 +685,7 @@ body {
 
 <table class="table table-striped table-bordered table-hover table-condensed">
 	<tr>
-	<td>PHP <?php __('Prober'); ?>(<a href="https://github.com/ikym/Script"><?php __('Turbo Version'); ?></a>) v1.0</td>
+	<td><?php __('Prober'); ?>(<a href="https://github.com/ikym/Script"><?php __('Turbo Version'); ?></a>)</td>
 	<td>Processed in <?php printf('%0.1f', (microtime(true) - $time_start)*1000);?> ms, <?php echo round(memory_get_usage()/1024, 0).' KB';?> memory usage.</td>
 	<td><a href="javascript:scroll(0,0)"><?php __('Back to top'); ?></a></td>
 	</tr>
