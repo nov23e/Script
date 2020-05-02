@@ -378,7 +378,7 @@ echo " Kernel  : $kern"
 echo "----------------------------------------"
 echo " Auto install latest kernel for TCP BBR"
 echo
-echo " URL: https://lia.im/bbr.html"
+echo " URL: https://github.com/ikym/Script"
 echo "----------------------------------------"
 echo
 echo "Press any key to start...or Press Ctrl+C to cancel"
