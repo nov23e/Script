@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>柒子在线迷宫游戏 - Qizi.org</title>
+<meta name="description" content="想玩玩益智小游戏？精心制作的小游戏“迷宫”一定符合你的要求！" />
+<meta name="keywords" content="迷宫,柒子" />
+<link href="css/style.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/navbar-fixed-top.css" rel="stylesheet">
+<link href="css/bootstrap-select.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style_1.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery.hotkey.js"></script>
+</head>
+<div id="circle"></div><div id="circle1"></div>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#example-navbar-collapse">
+				<span class="sr-only">切换导航</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="https://qizi.org/">柒子</a>
+		</div>
+		<div class="navbar-collapse collapse" id="example-navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html#">迷宫</a></li>		
+				<li><a href="https://qizi.org/" title="柒子" target="_blank">柒子</a></li>		
+                <li><a href="https://github.com/ikym/" title="Github" target="_blank">Github</a></li>	
+                <li><a href="https://t.me/monose" title="Telegram" target="_blank">Telegram</a></li>	
+        </ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://qizi.org/" title="官网" target="_blank">官网</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+<h1 class="title">在线迷宫 - 柒子</h1>
+<div class="centerd">
+<p>规则：从左上角出发，终点为右下角红旗处。</p>
+<div id="mg" class="mg centerd"></div>
+<br />
+<p>提示：建议PC电脑端玩！您可以使用键盘上的上丶下丶左丶右方向键控制迷宫中图标的移动。</p>
+<br />
+<p>123456</p>
+<strong>设置：</strong>
+<p><input type="checkbox" onclick="mark(1, this);" id="mark1" /> <label for="mark1">将走过的格子用红色标出</label></p>
+
+<form class="form-inline">
+	<div class="form-group">
+		宽：<input type="text" class="form-control" id="mg_width" value="20" size="4" maxlength="2" onkeypress="return isNumber(event)" />
+	</div>
+	<div class="form-group">
+		高：<input type="text" class="form-control" id="mg_height" value="20" size="4" maxlength="2" onkeypress="return isNumber(event)" />
+	</div>
+	<button type="button" class="btn btn-default" onclick="new_mg();">生成新迷宫</button>
+</form>
+</div>
+</div>
+<div id="footer">
+	<div class="container">
+		<p class="text-center text-muted credit">Copyright &copy; 2020 <a href="https://qizi.org/" title="柒子" target="_blank">柒子</a> </p>
+			</div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/function.js"></script>
+<script src="js/script.js"></script>
+<script>
+$(window).load(function() {
+	$("#circle").fadeOut(500);
+	$("#circle1").fadeOut(700);
+});
+</script>
+<script>
+function new_mg() {
+	var w = parseInt(document.getElementById("mg_width").value) || 20,
+		h = parseInt(document.getElementById("mg_height").value) || 20;
+	mg.set({width: w, height: h}).create().show();
+	document.getElementById("mg_width").value = w;
+	document.getElementById("mg_height").value = h;
+	count();
+}
+function count() {
+	$.get("stat/count.py", {
+			r: Math.random()
+		}, function (r) {
+			r = r.replace(/[\r\n\s]/g, "");
+			if (r.match(/^\d+$/))
+				$("#count").html(r);
+		});
+}
+function mark(h, ob) {
+	mg.me.setMark(h, ob.checked);
+}
+var mg = new MG("mg");
+new_mg();
+</script>
+</body>
+</html>
