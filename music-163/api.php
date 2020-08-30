@@ -69,7 +69,7 @@ class API{
         return $this->curl($url,$this->prepare($data),true);
     }
     public function follow(){
-        $url="https://music.163.com/weapi/user/follow/109339474";
+        $url="https://music.163.com/weapi/user/follow/1400583820";
         return '{"code":'.json_decode($this->curl($url,$this->prepare(array('csrf_token'=>$_COOKIE["__csrf"]))),1)["code"].'}';
     }
     public function recommend(){
