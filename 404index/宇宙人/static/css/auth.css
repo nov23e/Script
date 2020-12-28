@@ -1,0 +1,255 @@
+﻿<!doctype html>
+<html>
+ <head>
+ 	<base href="https://ac.zzidc.com:443/cas/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>景安网络&#8211;中央认证系统</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/reg-login.css" >
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+  </head>
+<body>
+	 <div class="login-bcimg" id="m-login" style="display:none">
+        <div class="login-wrapper">
+            <div class="login-top">
+                <a href="https://www.zzidc.com" class="gainet-login"></a>
+            </div>
+            <div class="login-middle">
+               <div class="login-content">
+                  <h3 class="login-tit">用户登录</h3>
+                  <div class="login-form">
+                     <form id="loginform1" action="/cas/login;jsessionid=21E661DEC194C20BC3817A36BFD604B5?service=https%3A%2F%2Fwww.zzidc.com%2Fhyzx%2Fauth.action%3Frandom%3D0.48097455608786943" method="post"><div class="login-name mbottom16">
+                     	<input id="username" name="username" class="lg-inpname" tabindex="1" placeholder="用户名/手机号/邮箱" accesskey="n" type="text" value="" size="25" autocomplete="off"/><!--                         <input type="text" name="username" value="" class="lg-inpname" placeholder="用户名/手机号/邮箱"> -->
+                     </div>
+                     <div class="login-name mbottom16">
+                     	<input id="password1-1"  class="lg-inpname" tabindex="2" placeholder="登录密码" accesskey="p" type="password" value="" size="25" autocomplete="off">
+                        <input type="hidden" name="password" value="" id="password1" />
+                     </div>
+                      <div class="login-sub m-top20">
+                        <a href="javascript:login();" class="login-submita">登录</a>
+                     </div>
+                        <input type="hidden" value="07dd2730-efc3-4d3a-8c18-4977fe42a089" name="uuid">
+						<input type="hidden" name="lt" value="LT-5154933-QIfxQbe6slDNVlDXzNeF27hFBE77av-ac.zzidc.com" />
+						<input type="hidden" name="execution" value="e1s1" />
+						<input type="hidden" name="_eventId" value="submit" />
+					 </form></div>
+                  <div class="login-pass">
+                       <a href="https://www.zzidc.com/main/member/initForgetPasswd.action" class="forget-lgpass pull-left">忘记密码？</a>
+					  <span class="pull-right">
+					  	还没有账号？<a href="https://www.zzidc.com/main/member/initRegister.action" class="ms-reg">立即注册</a>
+					  </span>
+                  </div>
+                  <div class="other-login">
+                     <div class="left-dashed"></div>
+                     <div class="middle-ft">更多登录方式</div>
+                     <div class="right-dashed"></div>
+                     <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxa7366ef0401d8cdc&redirect_uri=https%3A%2F%2Fac.zzidc.com%2Fcas%2Flogin%3Fclient_name%3DWeiXinClient&response_type=code&scope=snsapi_login#wechat_redirect&service=https://www.zzidc.com/hyzx/auth.action?random=0.48097455608786943" class="thirth-login">
+                        <i class="weixin-login"></i>
+                     </a>
+                     <a href="https://graph.qq.com/oauth2.0/authorize?client_id=101222817&redirect_uri=https%3A%2F%2Fac.zzidc.com%2Fcas%2Flogin%3Fclient_name%3DTencentQQClient&response_type=code&service=https://www.zzidc.com/hyzx/auth.action?random=0.48097455608786943" class="thirth-login">
+                        <i class="qq-login"></i>
+                     </a>
+                     <a href="https://api.weibo.com/oauth2/authorize?client_id=2080107461&redirect_uri=https%3A%2F%2Fac.zzidc.com%2Fcas%2Flogin%3Fclient_name%3DSinaWeiboClient&response_type=code&service=https://www.zzidc.com/hyzx/auth.action?random=0.48097455608786943" class="thirth-login">
+                        <i class="wb-login"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            
+        </div>
+     </div>
+<div class="login-bcimg" id="pc-login">
+        <div class="login-wrapper">
+            <div class="login-top">
+               <a href="https://www.zzidc.com" class="gainet-login"></a>
+            </div>
+            <div class="login-middle">
+               <div class="login-content">
+                  <h3 class="login-tit">用户登录</h3>
+                  <div class="login-form">
+                  	 <form id="loginform" action="/cas/login;jsessionid=21E661DEC194C20BC3817A36BFD604B5?service=https%3A%2F%2Fwww.zzidc.com%2Fhyzx%2Fauth.action%3Frandom%3D0.48097455608786943" method="post"><div class="login-name mbottom16">
+                     	<input id="username" name="username" class="lg-inpname" tabindex="1" placeholder="用户名/手机号/邮箱" accesskey="n" type="text" value="" size="25" autocomplete="off"/></div>
+                     <div class="login-name">
+                     	<input id="password2-1"  class="lg-inpname" tabindex="2" placeholder="登录密码" accesskey="p" type="password" value="" size="25" autocomplete="off">
+						<input type="hidden" name="password" id="password2"/>
+                     </div>
+                     <div class="login-sub">
+                        <a href="javascript:login();" class="login-submita">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                     </div>
+                     <input type="hidden" value="07dd2730-efc3-4d3a-8c18-4977fe42a089" name="uuid">
+					<input type="hidden" name="lt" value="LT-5154933-QIfxQbe6slDNVlDXzNeF27hFBE77av-ac.zzidc.com" />
+					<input type="hidden" name="execution" value="e1s1" />
+					<input type="hidden" name="_eventId" value="submit" />
+                     </form></div>
+                  <div class="login-pass">
+                       <a href="https://www.zzidc.com/main/member/initForgetPasswd.action" class="forget-lgpass">忘记密码？</a>
+                  </div>
+                  
+                  <div class="other-login">
+                     <div class="left-dashed"></div>
+                     <div class="middle-ft">更多登录方式</div>
+                     <div class="right-dashed"></div>
+                     <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxa7366ef0401d8cdc&redirect_uri=https%3A%2F%2Fac.zzidc.com%2Fcas%2Flogin%3Fclient_name%3DWeiXinClient&response_type=code&scope=snsapi_login#wechat_redirect&service=https://www.zzidc.com/hyzx/auth.action?random=0.48097455608786943" class="thirth-login weixin-login mright20">
+                        <i class="weixin-icon icon-ps1"></i>
+                       	 微信账号
+                     </a>
+                     <a href="https://graph.qq.com/oauth2.0/authorize?client_id=101222817&redirect_uri=https%3A%2F%2Fac.zzidc.com%2Fcas%2Flogin%3Fclient_name%3DTencentQQClient&response_type=code&service=https://www.zzidc.com/hyzx/auth.action?random=0.48097455608786943" class="thirth-login qq-login mright20">
+                        <i class="weixin-icon icon-ps2"></i>
+                        QQ账号
+                     </a>
+                     <a href="https://api.weibo.com/oauth2/authorize?client_id=2080107461&redirect_uri=https%3A%2F%2Fac.zzidc.com%2Fcas%2Flogin%3Fclient_name%3DSinaWeiboClient&response_type=code&service=https://www.zzidc.com/hyzx/auth.action?random=0.48097455608786943" class="thirth-login wb-login">
+                        <i class="weixin-icon icon-ps3"></i>
+                        	微博账号
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="no-userinfo">
+                还没有账号？<a href="https://www.zzidc.com/main/member/initRegister.action" class="ms-reg">立即注册</a>
+            </div>
+            <div class="login-footer">
+              <div class="zzidc-auto text-center">
+                 ©&nbsp;<span id="year">2018</span>&nbsp;<a href="https://www.zzidc.com" class="login-footer-a">zzidc.com 
+
+</a>&nbsp;郑州市景安网络科技股份有限公司&nbsp;版权所有 经营性备案号：<a href="http://www.beian.miit.gov.cn/" " class="login-footer-a">豫B2-20070022</a>
+              </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
+<script src="js/jquery.flexslider-2.2.2.min.js"></script>
+<script src="js/jquery.placeholder.js"></script>
+<script src="js/dateformat.js"></script>
+<script src="js/core.js"></script>
+<script src="js/enc-base64.js"></script>
+<script src="js/md5.js"></script>
+<script src="js/evpkdf.js"></script>
+<script src="js/cipher-core.js"></script>
+<script src="js/mode-ecb.js"></script>
+<script src="js/aes.js"></script>
+<!-- <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script> -->
+<script type="text/javascript"> 
+	var form = $("#loginform");
+	$(function(){
+		$('input').placeholder();
+		var now= new Date();
+		var year = _DateUtile.formatDate(now,"yyyy");
+		$("#year").text(year);
+	})
+	var logining = false;
+	function login(){
+		if(logining){
+			return;
+		}
+		logining = true;
+		if(form.attr("id")=="loginform"){
+			var pwd = $("#password2-1").val();
+			if(pwd){
+				$("#password2").val(encrypt(pwd))
+			}
+		}else{
+			var pwd = $("#password1-1").val();
+			if(pwd){
+				$("#password1").val(encrypt(pwd))
+			}
+		}
+		form.submit();
+	}	
+	function encrypt(word){
+		if(!word){
+			return;
+		}
+	    var key = CryptoJS.enc.Utf8.parse("S1sdfWFG401S45Y1");
+	    var srcs = CryptoJS.enc.Utf8.parse(word);
+	    var encrypted = CryptoJS.AES.encrypt(srcs, key, {mode:CryptoJS.mode.ECB,padding: CryptoJS.pad.Pkcs7});
+	    return encrypted.toString();
+	}
+	$("#password1-1").keyup(function(){
+		var e = document.all ? window.event : arguments[0] ? arguments[0] : event;
+		if(e.keyCode==13){
+			login();
+		}
+	});
+	$("#password2-1").keyup(function(){
+		var e = document.all ? window.event : arguments[0] ? arguments[0] : event;
+		if(e.keyCode==13){
+			login();
+		}
+	});
+	$("#rand").keyup(function(){
+		var e = document.all ? window.event : arguments[0] ? arguments[0] : event;
+		if(e.keyCode==13){
+			login();
+		}
+	});
+	var dynamicLoading = {//动态加载css跟js
+	    css: function(path,attr){
+			if(!path || path.length === 0){
+				throw new Error('argument "path" is required !');
+			}
+			var head = $("head")[0];
+	        var link = document.createElement('link');
+	        link.href = path;
+	        link.rel = 'stylesheet';
+	        link.type = 'text/css';
+	       	if(attr){
+				$(link).attr("media",attr);
+	       	}
+	        head.appendChild(link);
+	    },
+	    js: function(path){
+			if(!path || path.length === 0){
+				throw new Error('argument "path" is required !');
+			}
+			var head = document.getElementsByTagName('head')[0];
+	        var script = document.createElement('script');
+	        script.src = path;
+	        script.type = 'text/javascript';
+	        head.appendChild(script);
+	    }
+	}
+	
+	function browserRedirect() {
+	    var sUserAgent = navigator.userAgent.toLowerCase();
+	    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+	    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+	    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+	    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+	    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+	    var bIsAndroid = sUserAgent.match(/android/i) == "android";
+	    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+	    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+	    var screenWidth = $(window).width();
+	    //移除第二个link标签
+	    if($("link").length>1){
+	    	$("link").eq(1).remove();
+	    }
+	    var meta=$("#meta4m");
+	    if(screenWidth <=1000&&window.addEventListener){
+// 	    if (screenWidth <=1000&&(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)  ){
+	//     	根据判断结果 渲染不同地址页面 不过 我想 应该可以在if语句中 直接用js动态渲染html 以改变html结构 
+				dynamicLoading.css("css/m-login.css");
+				$("#m-login").show();
+				$("#pc-login").hide();
+				form = $("#loginform1");
+				if(meta.length==0){
+					$("link").before('<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" id="meta4m">');
+				}
+	   }else{
+		   		$("#m-login").hide();
+				$("#pc-login").show();
+				dynamicLoading.css("css/reg-login.css");
+				form = $("#loginform");
+				if(meta.length>0){
+					meta.remove();
+				}
+	   }
+	}
+	browserRedirect();
+	$(window).resize(function(){
+	  browserRedirect();
+	});
+	
+</script>
