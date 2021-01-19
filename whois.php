@@ -34,6 +34,7 @@ $whoisservers = array(
 	"int" =>"whois.iana.org",
 	"is" =>"whois.isnic.is",
 	"it" =>"whois.nic.it",
+	"im" =>"whois.nic.im",
 	"jobs" =>"jobswhois.verisign-grs.com",
 	"me" =>"whois.nic.me",
 	"mil" =>"whois.nic.mil",
@@ -148,7 +149,7 @@ if ($domain) {
 ?>
 <div align="center">
   <p>&#9400; 2020
-    <a href="https://hxzo.com" title="Hxzo, lnc.">Hxzo, lnc.</a></p>
+    <a href="https://cyril.soy" title="Hxzo, lnc.">Cyril's Blog.</a></p>
 </div>
 </div>
 </body>
