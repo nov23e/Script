@@ -685,7 +685,7 @@ body {
 
 <table class="table table-striped table-bordered table-hover table-condensed">
 	<tr>
-	<td><?php __('Prober'); ?>(<a href="https://github.com/ikym/Script"><?php __('Turbo Version'); ?></a>)</td>
+	<td><?php __('Prober'); ?>(<a href="https://github.com/cyrilsoy/Script"><?php __('Turbo Version'); ?></a>)</td>
 	<td>Processed in <?php printf('%0.1f', (microtime(true) - $time_start)*1000);?> ms, <?php echo round(memory_get_usage()/1024, 0).' KB';?> memory usage.</td>
 	<td><a href="javascript:scroll(0,0)"><?php __('Back to top'); ?></a></td>
 	</tr>
