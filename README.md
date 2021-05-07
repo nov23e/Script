@@ -4,19 +4,19 @@
 - Description: Auto test download & I/O speed & network to China script
 
 ```
-wget --no-check-certificate https://github.com/ikym/Script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh
+wget --no-check-certificate https://github.com/hsce/Script/raw/master/bench.sh && chmod +x bench.sh && ./bench.sh
 ```
 
 ## Shadowsocks
 - Description: Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
 
-- Please enter the [Github](https://github.com/ikym/Shadowsocks)
+- Please enter the [Github](https://github.com/hsce/Shadowsocks)
 
 ## bbr.sh
 - Description: Auto install latest kernel for TCP BBR
 
 ```
-wget --no-check-certificate https://github.com/ikym/Script/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+wget --no-check-certificate https://github.com/hsce/Script/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
 ## prober-https.php
@@ -58,4 +58,4 @@ wget --no-check-certificate https://github.com/ikym/Script/raw/master/bbr.sh && 
 
 ## License
 
-Unless otherwise stated, everything on this GitHub is released under the [MIT](https://mit-license.org) license.
+Unless otherwise stated, everything on this GitHub is released under the [MIT](https://cyrilwong.mit-license.org/) license.
