@@ -31,8 +31,12 @@ wget --no-check-certificate https://github.com/hsce/Script/raw/master/bbr.sh && 
 - 简洁Light版
 - 去除了IP、探针显示以及所有的主动测试功能，挂在服务器上不用太担心被刷……
 
-## p.php
+## LNMP-p.php
  - LNMP.ORG 默认探针
+
+## lnmp-index.html
+ - LNMP默认主页
+ - lnmp.gif LNMP图片
 
 ## License
 
